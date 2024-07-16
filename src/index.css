@@ -25,10 +25,14 @@
   --gd-1: #daa520;
   --gd-l: #ffd700;
   --gd-d: #b8860b;
-  --sky: skyblue;
+  --sky: #87ceeb;
   --br-s: 3px;
   --br-m: 5px;
   --br-l: 7px;
+  --pr-s: 6px;
+  --pr-m: 8px;
+  --pr-l: 10px;
+  --pr-xl: 12px;
 }
 
 body {
@@ -45,3 +49,4 @@ p {
   color: var(--sky);
   font-weight: 200;
 }
+
