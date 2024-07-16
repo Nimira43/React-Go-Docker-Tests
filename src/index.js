@@ -7,8 +7,14 @@ import App from './App'
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
-    <AppClass />
-    <App />
+    <div className='container'>
+      <div className='row'>
+        <div className='col'>
+          <AppClass />
+          <App />
+        </div>
+      </div>
+    </div>  
   </React.StrictMode>
 )
 
