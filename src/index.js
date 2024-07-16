@@ -10,8 +10,8 @@ root.render(
     <div className='container'>
       <div className='row'>
         <div className='col'>
-          <AppClass />
-          <App />
+          <AppClass msg='React Go Docker Tests - Classes'/>
+          <App msg='React Go Docker Tests - Functions'/>
         </div>
       </div>
     </div>  

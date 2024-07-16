@@ -1,9 +1,9 @@
 import React from 'react'
 
-function App() {
+function App(props) {
   return (
     <>
-      <h1>React Go Docker Tests</h1>
+      <h1>{props.msg}</h1>
       <p>Functional Components</p>
     </>
   )
